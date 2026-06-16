@@ -1,5 +1,0 @@
-# YOLO annotation example
-# Format: class_id x_center y_center width height
-# Coordinates are normalized to [0, 1].
-1 0.490625 0.519531 0.068750 0.182812
-1 0.640625 0.525000 0.078125 0.200000

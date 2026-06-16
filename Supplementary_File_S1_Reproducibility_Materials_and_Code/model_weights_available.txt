@@ -1,2 +1,0 @@
-The trained model weights are not included in this supplementary package due to engineering confidentiality and data-use restrictions associated with the original infrared inspection data. The trained weights and additional verification files can be made available from the corresponding author upon reasonable request for academic verification purposes, subject to applicable confidentiality and data-use requirements.
-

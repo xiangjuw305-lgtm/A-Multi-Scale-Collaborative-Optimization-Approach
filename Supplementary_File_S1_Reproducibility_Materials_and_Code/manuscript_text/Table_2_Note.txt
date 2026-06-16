@@ -1,1 +1,0 @@
-Note: All ablation variants have the same computational cost of 58.9 GFLOPs; GFLOPs are omitted from Table 2 for compactness.
