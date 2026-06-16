@@ -1,0 +1,1 @@
+For reproducibility, the fixed data split, category list, annotation examples, training configuration, model configuration, evaluation commands, and the main reproduction script are provided in the supplementary material. The reported results were obtained using the same validation split and the same evaluation protocol for all compared methods.

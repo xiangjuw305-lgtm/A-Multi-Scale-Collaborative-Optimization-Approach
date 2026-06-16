@@ -1,0 +1,29 @@
+task: detect
+input_size: 640
+epochs: 100
+batch_size: 12
+optimizer: AdamW
+initial_learning_rate: 0.001
+momentum: 0.937
+weight_decay: 0.0005
+pretrained_weights: official YOLOv10m pretrained weights
+amp: true
+
+hardware:
+  gpu: NVIDIA GeForce RTX 2080 SUPER
+  gpu_memory: 8 GB
+
+software:
+  python: 3.11.0
+  pytorch: 2.1.2
+  cuda: associated CUDA environment
+
+evaluation:
+  split: fixed validation split
+  metrics:
+    - Precision
+    - Recall
+    - mAP@0.5
+    - mAP@0.5:0.95
+    - Parameters
+    - GFLOPs

@@ -1,0 +1,13 @@
+Evaluation protocol
+
+All models were evaluated on the same fixed validation split using an input resolution of 640 x 640. The reported metrics include Precision, Recall, mAP@0.5, mAP@0.5:0.95, Parameters, and GFLOPs.
+
+Example command format:
+yolo val model=<model_weight.pt> data=dataset.yaml imgsz=640 split=val
+
+Please replace <model_weight.pt> with the corresponding trained model weight file.
+
+Important:
+- No ground-truth boxes, semantic masks, or manually specified ROI information are used during validation or inference.
+- SGRB-DE is only used during training-sample enhancement.
+- The same evaluation protocol is used for YOLOv5m, YOLOv8m, YOLOv10m, and the proposed model.

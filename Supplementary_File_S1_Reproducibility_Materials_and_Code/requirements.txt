@@ -1,0 +1,6 @@
+python>=3.11
+pytorch>=2.1.2
+ultralytics>=8.0
+numpy
+opencv-python
+pyyaml
